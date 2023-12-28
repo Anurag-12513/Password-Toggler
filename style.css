@@ -1,0 +1,32 @@
+body{
+    background-color: #250957;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;   
+
+}
+
+.passwordBox{
+    height: 7%;
+    width: 45%; 
+    max-width: 500px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 8px ;
+    outline: 0;
+    
+}
+
+#eye_icon{
+    width: 40px;
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+}
+
+
