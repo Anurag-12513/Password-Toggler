@@ -30,11 +30,15 @@ body{
 }
 
 p{
+    display: none;
+    color: #ccc;
     position: absolute;
     transform: translateY(45px);
-    left: 34%;
-    color: #fff;
+    left: 37%;
     font-size: 16px;
-    display: none;
-    
+   
+}
+
+span{
+    font-size: 16px;
 }
