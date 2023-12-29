@@ -21,8 +21,7 @@ let eye = document.querySelector('#eye_icon');
 
 
         //    Adding new feature  
-
-//  let pass= document.querySelector('#Password');
+        //This feature will tell us the strength of our password
  let pass =document.getElementById('Password');
  let str= document.querySelector('#strength');
 
