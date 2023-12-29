@@ -17,4 +17,34 @@ let eye = document.querySelector('#eye_icon');
         eye.src='eye-icons/eye-close.png';
     }
  }
+
+
+
+        //    Adding new feature  
+
+//  let pass= document.querySelector('#Password');
+ let pass =document.getElementById('Password');
+ let str= document.querySelector('#strength');
+
+getPbox.addEventListener('input', ()=>{
+       if(getPbox.value.length>0){
+        pass.style.display="block";
+       }
+       else{
+        pass.style.display='none';
+       }
+       if(getPbox.value.length<4){
+        str.innerHTML="weak";
+        pass.style.color="red"
+       }
+       else  if(getPbox.value.length>=4 && getPbox.value.length <8){
+        str.innerHTML="medium";
+        pass.style.color="yellow"
+        
+       }
+       else{
+        str.innerHTML= "strong"
+        pass.style.color="green"
+       }
+})
  
